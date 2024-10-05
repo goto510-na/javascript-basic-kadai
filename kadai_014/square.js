@@ -1,6 +1,5 @@
 const square=(num)=>{
-    const result = num**2; 
-    console.log(result);
+    return num*num;
 }
-square(10); //100が出力される
- 
+let result=square(10); //100が出力される
+console.log(result);
