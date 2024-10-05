@@ -1,2 +1,8 @@
-console.log(new Date(8.64e15).toString()); // "Sat Sep 13 275760 00:00:00 GMT+0000 (Coordinated Universal Time)"
-console.log(new Date(8.64e15 + 1).toString()); // "Invalid Date"
+let today = new Date();
+
+const year=today.getFullYear();
+const month=today.getMonth()+1;
+const date=today.getDate();
+
+
+console.log(year +"年"+month+"月"+date+"日");
